@@ -16,3 +16,4 @@ env/
 # ── OS (Windows) ──────────────────────────────────
 Thumbs.db
 desktop.ini
+data/DataCo_Supply_Chain.csv
