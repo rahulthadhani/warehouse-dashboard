@@ -74,7 +74,7 @@ lead_by_type = (
 )
 
 # KPI 3 — Monthly order volume trend
-kaggle["year_month"] = kaggle["order_date"].dt.to_period("M").astype(str)
+kaggle["year_month"] = kaggle["order_date"].dt.strftime("%Y-%m")
 monthly_orders = (
     kaggle.groupby("year_month")
     .agg(
