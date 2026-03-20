@@ -1,0 +1,5 @@
+Type,avg_lead_time,total_orders
+CASH,3.44,19616
+DEBIT,3.46,69295
+PAYMENT,3.5,41725
+TRANSFER,3.47,49883
