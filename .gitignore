@@ -1,0 +1,18 @@
+# ── Data ──────────────────────────────────────────
+data/DataCo_Supply_Chain.csv
+
+# ── Python ────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.env
+
+# ── Virtual environment ───────────────────────────
+venv/
+env/
+.venv/
+
+# ── OS (Windows) ──────────────────────────────────
+Thumbs.db
+desktop.ini
